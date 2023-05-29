@@ -1,0 +1,250 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header
+{
+    display: flex;
+    margin:10px 30px 0px 30px;
+}
+
+.navContent
+{
+    display: flex;
+    margin-left: 318px;
+    /* margin: 20px 30px; */
+    /* font-family: Poppins; */
+}
+.logo img
+{
+    height: 76px;
+    padding: 5px 0px;
+    /* margin-top: 10px; */
+}
+
+
+.home,.aboutUs,.blog,.contact,.applyNow
+{
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    margin: 0px 30px;
+    padding:25px 0px;
+    font-size: 16px;
+}
+
+.hori1
+{
+    display:flex;
+    height: 80px;
+    margin: 0px 20px 0px 20px;
+    width: 2px;
+    background-color: rgb(39, 36, 36);
+}
+
+
+
+.rightSide{
+    display: flex;
+}
+
+.chattingLogo
+{
+    margin: 26px 0px 0px 0px;
+}
+
+.info
+{
+    margin: 10px 0px 0px 10px;
+}
+.contactRight
+{
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    margin: 0px 0px 0px 2px;
+}
+.phoneNUmber,.mail
+{
+    color: #00af07 ;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+
+.menu
+{
+    display: flex;
+    font-family: 'Poppins', sans-serif;
+    background-color: #ededed;
+    margin-top: 10px;
+    padding: 6px 0px 6px 44px;
+}
+
+.canadaImi,.canadaPnp,.australiaImi,.studyAbr,.workPer,.visitorVisa,.otherSer,.search
+{
+    font-size: 13px;
+    padding:0px 56px 0px 0px;
+    font-weight: 300;
+}
+
+
+
+.homeCrou
+{
+    height: 500px;
+    background-image: url("./education3.png");
+    background-size: 100% 100%;
+
+    display:flex;
+}
+.homeCrou .content{
+    margin:53px 0px 0px 44px;
+} 
+.enquire{
+    display: flex;
+    height: 30px;
+    width: 152px;
+    background-color: #00af07;
+    color: white;
+    padding: 6px 6px;
+}
+.homeCrou hr{
+    height: 20px;
+}
+
+.homeCrou .form
+{
+    margin:54px 0px 0px 648px;
+    height: 446px;
+    width: auto;
+    background-color: white;
+    border: 2px solid rgba(114, 114, 114, 0.911);
+    border-bottom: none;
+    border-radius: 8px 8px 0px 0px;
+}
+.form .fhead1,p{
+    text-align:center;
+}
+
+.form .name,.phone,.email,.msg,.subBtn
+{
+    width: 260px;
+    background-color: rgba(235, 235, 235, 0.671);
+    padding:12px 0px 0px 7px;
+    margin: 7px 10px;
+    border-radius:3px;
+    color: rgb(85, 80, 80);
+}
+
+.form .name,.phone,.email{
+    height: 43px;
+}
+
+.form .msg
+{
+    height:92px;
+}
+
+.form .subBtn
+{
+    height: 43px;
+    text-align: center;
+    background-color: rgb(41, 173, 14);
+    color: white;
+}
+
+
+.infoc{
+    text-align:center;
+}
+
+.cards
+{
+    display: flex;
+}
+
+.box
+{
+        
+    background-color: white;
+    height: 400px;
+    width:300px;
+    margin: 10px;
+    box-shadow: 1px 1px 10px black ;
+    transition: all 0.5s;
+}
+.box:hover
+{
+    background-color: green;
+}
+
+.boximg
+{
+    height: 200px;
+    background-color: black;
+}
+
+#enq2
+{
+    margin: 0 40%;
+}
+
+.secCountries
+{
+    display:flex;
+    margin: 50px 0px 0px 0px;
+    background-image: url('https://pioverseas.com/wp-content/uploads/2022/06/scholarship-bg.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    height:500px;
+}
+.contdiv1{
+    width: 50%;
+
+}
+.contdiv1 img{
+    height: 500px;
+}
+
+
+.contdiv2 ul{
+    list-style-type: none;
+    display:flex;
+}
+.contdiv2 li{
+    margin:0px 2px;
+}
+.applyNow{
+    display: flex;
+    height: 30px;
+    width: 152px;
+    background-color: #00af07;
+    color: white;
+    padding: 6px 6px;
+}
+.enrole
+{
+    display:flex;
+    margin: 30px 40px;
+}
+
+
+.cbox
+{
+    height: 145px;
+    width: 277px;
+    text-align: center;
+    border:1px solid rgba(179, 169, 169, 0.63);
+    border-radius: 3px;
+    margin: 20px;
+    padding:38px 0px;
+}
+
+.cbox h1{
+    color: #00af07;
+}
